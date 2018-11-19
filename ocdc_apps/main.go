@@ -126,12 +126,12 @@ func GetQueueInfo(new_path, all_path, ip_tail string) error {
 
     return nil
 }
-func KillApps(state, queue_name, ip_tail string) error {
+func KillApps(state, queue_name, ip_tail, select_by string) error {
     str_url := ""
     if state == "all" {
-        str_url = fmt.Sprintf("http://10.142.97.%s:8088/ws/v1/cluster/apps?queue=%s", ip_tail, queue_name)
+        str_url = fmt.Sprintf("http://10.142.97.%s:8088/ws/v1/cluster/apps?%s=%s", ip_tail, select_by, queue_name)
     } else {
-        str_url = fmt.Sprintf("http://10.142.97.%s:8088/ws/v1/cluster/apps?states=%s&queue=%s", ip_tail, state, queue_name)
+        str_url = fmt.Sprintf("http://10.142.97.%s:8088/ws/v1/cluster/apps?states=%s&%s=%s", ip_tail, state, select_by, queue_name)
     }
 	request := gorequest.New()
     _, body, errs := request.Get(str_url).End()
@@ -380,6 +380,7 @@ func main(){
     end := flag.String("end", "2018-05-31 09:20:00", "file path")
     task_state := flag.String("state", "all", "file path")
     queue_name := flag.String("name", "hjpt", "file path")
+    select_by := flag.String("by", "queue", "file path")
     target_num := flag.Int("num", 50, "path")
     ip_tail := flag.String("ip", "4", "path")
     //queue_state := flag.String("state", "ACCEPTED", "file path")
@@ -388,7 +389,7 @@ func main(){
     if *operation == "top" {
         GetAppResourcesByAverage(*queue_name, *task_state, *begin, *end, *target_num, *ip_tail)
     } else if *operation == "kill" {
-        KillApps(*task_state, *queue_name, *ip_tail)
+        KillApps(*task_state, *queue_name, *ip_tail, *select_by)
     } else {
         fmt.Println("error operation beside top and kill:", *operation)
     }
