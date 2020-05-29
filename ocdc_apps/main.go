@@ -129,9 +129,9 @@ func GetQueueInfo(new_path, all_path, ip_tail string) error {
 func KillApps(state, queue_name, ip_tail, select_by string) error {
     str_url := ""
     if state == "all" {
-        str_url = fmt.Sprintf("http://10.142.97.%s:8088/ws/v1/cluster/apps?%s=%s", ip_tail, select_by, queue_name)
+        str_url = fmt.Sprintf("http://%s:8088/ws/v1/cluster/apps?%s=%s", ip_tail, select_by, queue_name)
     } else {
-        str_url = fmt.Sprintf("http://10.142.97.%s:8088/ws/v1/cluster/apps?states=%s&%s=%s", ip_tail, state, select_by, queue_name)
+        str_url = fmt.Sprintf("http://%s:8088/ws/v1/cluster/apps?states=%s&%s=%s", ip_tail, state, select_by, queue_name)
     }
 	request := gorequest.New()
     _, body, errs := request.Get(str_url).End()
@@ -164,7 +164,7 @@ func KillApps(state, queue_name, ip_tail, select_by string) error {
             fmt.Printf("out:%s\n", out)
             wg.Done()
             }(app.Id)
-        if index % 100 == 0 {
+        if (index + 1) % 100 == 0 {
             time.Sleep(60 * time.Second)
         }
     }
@@ -375,20 +375,21 @@ func PathExists(path string) (bool, error) {
 func main(){
     //new_path := flag.String("newpath", "new_app.csv", "file path")
     //all_path := flag.String("allpath", "all_app.csv", "file path")
-    operation := flag.String("o", "top", "operation select")
+    operation := flag.String("o", "kill", "operation select")
+    target_num := flag.Int("num", 50, "path")
     begin := flag.String("begin", "2018-05-29 09:20:00", "file path")
     end := flag.String("end", "2018-05-31 09:20:00", "file path")
     task_state := flag.String("state", "all", "file path")
-    queue_name := flag.String("name", "hjpt", "file path")
+    queue_name := flag.String("name", "hxxt_yx", "file path")
     select_by := flag.String("by", "queue", "file path")
-    target_num := flag.Int("num", 50, "path")
-    ip_tail := flag.String("ip", "4", "path")
+    ip_tail := flag.String("ip", "10.142.97.3", "path")
     //queue_state := flag.String("state", "ACCEPTED", "file path")
     flag.Parse()
 //    GetQueueInfo(*new_path, *all_path)
     if *operation == "top" {
         GetAppResourcesByAverage(*queue_name, *task_state, *begin, *end, *target_num, *ip_tail)
     } else if *operation == "kill" {
+        //./ocdc_apps -ip=3 -o kill -by=user/queue -name=hxxt_yx/root.normal_queues.proccess.hxxt.yx -state=RUNNING/ACCEPTED
         KillApps(*task_state, *queue_name, *ip_tail, *select_by)
     } else {
         fmt.Println("error operation beside top and kill:", *operation)

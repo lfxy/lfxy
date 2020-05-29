@@ -1,0 +1,2 @@
+queue,user,id,name,started_time,peek_cpu,cpu_seconds,memory_seconds,time_elapsed,,
+root.hjtest.hjstandard,hjtest,application_1528978566586_88353,"insert overwrite tabl...type,visit_area_code(Stage-1)",2018/6/16 6:56,3817,2335353,4792769498,3425435,,4

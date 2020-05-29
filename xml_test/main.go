@@ -19,12 +19,56 @@ type RootIns struct {
     PoolObjs    []PoolIns       `xml:"pool"`
 }
 type PoolIns struct {
-    XMLName     xml.Name        `xml:"pool"`
-    PoolName    string          `xml:"name,attr"`
-    Min_v       string        `xml:"minResources"`
-    Max_v       string        `xml:"maxResources"`
+    XMLName     xml.Name                `xml:"pool"`
+    PoolName    string                  `xml:"name,attr"`
+    Min_v       string                  `xml:"minResources"`
+    Max_v       string                  `xml:"maxResources"`
+    Acl_v       string                  `xml:"aclSubmitApps"`
+    PoolSeconds []PoolIns               `xml:"pool"`
 }
 
+func test2(fileName string){
+    data, err := ioutil.ReadFile(fileName)
+    if err != nil {
+        fmt.Println(err)
+    }
+    var v XML_test
+    err = xml.Unmarshal(data, &v)
+    if err != nil {
+        fmt.Println(err)
+    }
+    for _, pool := range v.RootObj.PoolObjs {
+        if pool.PoolSeconds != nil {
+            //fmt.Println("====================")
+            for _, pool2 := range pool.PoolSeconds {
+                mem_int, cpu_int, err := ParseMemCpu(pool2.Min_v)
+                if err != nil {
+                    fmt.Println(err.Error())
+                    return
+                }
+                mem_int2, cpu_int2, err := ParseMemCpu(pool2.Max_v)
+                if err != nil {
+                    fmt.Println(err.Error())
+                    return
+                }
+                fmt.Printf("%s=%d=%d=%d=%d=root.normal_queues.bigplatform.%s.%s\n", strings.TrimSuffix(pool2.Acl_v, ","), mem_int, cpu_int, mem_int2, cpu_int2, pool.PoolName, pool2.PoolName)
+            }
+            //fmt.Println("++++++++++===========")
+            continue
+        }
+        mem_int, cpu_int, err := ParseMemCpu(pool.Min_v)
+        if err != nil {
+            fmt.Println(err.Error())
+            return
+        }
+        mem_int2, cpu_int2, err := ParseMemCpu(pool.Max_v)
+        if err != nil {
+            fmt.Println(err.Error())
+            return
+        }
+        fmt.Printf("%s=%d=%d=%d=%d=root.normal_queues.bigplatform.%s\n", strings.TrimSuffix(pool.Acl_v, ","), mem_int, cpu_int, mem_int2, cpu_int2, pool.PoolName)
+    }
+}
 func test(fileName string){
     data, err := ioutil.ReadFile(fileName)
     if err != nil {
@@ -132,8 +176,8 @@ func ParseNarmal(fileName string){
     }
 }
 func main(){
-    path := flag.String("path", "fair-scheduler.xml", "file path")
+    path := flag.String("path", "bigplatform.xml", "file path")
     flag.Parse()
-   // test(*path)
-   ParseNarmal(*path)
+    test2(*path)
+   //ParseNarmal(*path)
 }

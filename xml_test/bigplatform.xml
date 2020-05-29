@@ -1,0 +1,1481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<allocations>
+  <pool name="root">
+        <pool name="lxl_pro6_ddqueue">
+          <minResources>9 mb, 9 vcores</minResources>
+          <maxResources>9 mb, 9 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>lxl_pro6</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="lxl_pro6_csqueue">
+          <minResources>6 mb, 6 vcores</minResources>
+          <maxResources>6 mb, 6 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>lxl_pro6</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="apzh1_pro6_ddqueue">
+          <minResources>9 mb, 9 vcores</minResources>
+          <maxResources>9 mb, 9 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>apzh1_pro6</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="apzh1_pro6_csqueue">
+          <minResources>6 mb, 6 vcores</minResources>
+          <maxResources>6 mb, 6 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>apzh1_pro6</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="apzh1_pro7_ddqueue">
+          <minResources>90 mb, 48 vcores</minResources>
+          <maxResources>270 mb, 144 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>apzh1_pro7</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="apzh1_pro7_csqueue">
+          <minResources>60 mb, 32 vcores</minResources>
+          <maxResources>180 mb, 96 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>apzh1_pro7</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="apzh1_pro8_ddqueue">
+          <minResources>90 mb, 48 vcores</minResources>
+          <maxResources>270 mb, 144 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>apzh1_pro8</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="apzh1_pro8_csqueue">
+          <minResources>60 mb, 32 vcores</minResources>
+          <maxResources>180 mb, 96 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>apzh1_pro8</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="apzh1_pro9_ddqueue">
+          <minResources>9 mb, 9 vcores</minResources>
+          <maxResources>9 mb, 9 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>apzh1_pro9</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="apzh1_pro9_csqueue">
+          <minResources>6 mb, 6 vcores</minResources>
+          <maxResources>6 mb, 6 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>apzh1_pro9</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="apzh1_pro10_ddqueue">
+          <minResources>9 mb, 9 vcores</minResources>
+          <maxResources>9 mb, 9 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>apzh1_pro10</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="apzh1_pro10_csqueue">
+          <minResources>6 mb, 6 vcores</minResources>
+          <maxResources>6 mb, 6 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>apzh1_pro10</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="apzh1_pro11_ddqueue">
+          <minResources>9 mb, 9 vcores</minResources>
+          <maxResources>9 mb, 9 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>apzh1_pro11</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="apzh1_pro11_csqueue">
+          <minResources>6 mb, 6 vcores</minResources>
+          <maxResources>6 mb, 6 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>apzh1_pro11</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="lqy_pro7_ddqueue">
+          <minResources>507800 mb, 150 vcores</minResources>
+          <maxResources>1015601 mb, 300 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>lqy_pro7</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="lqy_pro7_csqueue">
+          <minResources>338533 mb, 100 vcores</minResources>
+          <maxResources>677066 mb, 200 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>lqy_pro7</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>67707 mb, 20 vcores</minResources>
+            <maxResources>677066 mb, 200 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>lqy_pro7_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+          <pool name="queue2">
+            <minResources>67706 mb, 20 vcores</minResources>
+            <maxResources>677066 mb, 200 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>wy_wlw_sjgx,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+          <pool name="queue3">
+            <minResources>67706 mb, 20 vcores</minResources>
+            <maxResources>677066 mb, 200 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>wy_wlw_shwlwjk,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="lqy_pro8_ddqueue">
+          <minResources>1015600 mb, 300 vcores</minResources>
+          <maxResources>1015601 mb, 300 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>lqy_pro8_role1,zq-kpi,</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="lqy_pro8_csqueue">
+          <minResources>677066 mb, 200 vcores</minResources>
+          <maxResources>677066 mb, 200 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>lqy_pro8</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>135414 mb, 40 vcores</minResources>
+            <maxResources>677066 mb, 200 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>lqy_pro8_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+          <pool name="queue2">
+            <minResources>135413 mb, 40 vcores</minResources>
+            <maxResources>677066 mb, 200 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>sxh_qdxsgkxt_zqKPI</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+          <pool name="queue3">
+            <minResources>135413 mb, 40 vcores</minResources>
+            <maxResources>677066 mb, 200 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>sxh_qdxsgkxt_qdzhyy</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="lqy_pro82_ddqueue">
+          <minResources>1015599 mb, 300 vcores</minResources>
+          <maxResources>1015599 mb, 300 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>jt_jtsjzxsjyyc_sc_fwfz,lqy_pro82_role1,lqy_pro82_role1,</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="lqy_pro82_csqueue">
+          <minResources>677065 mb, 200 vcores</minResources>
+          <maxResources>677065 mb, 200 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>lqy_pro82</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>135413 mb, 40 vcores</minResources>
+            <maxResources>677065 mb, 200 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>jt_jtsjzxsjyyc_sc_fwfz,lqy_pro82_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="ryl_pro3_ddqueue">
+          <minResources>300000 mb, 300 vcores</minResources>
+          <maxResources>480000 mb, 540 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>jt_ptc_sec,tydic,jt_jtsjzxsjptc_jtptc,jt_jtsjzxsjptc_foundation,ryl_pro32_role1,bxz_dsjptzq_zqys,</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="xts_pro1_ddqueue">
+          <minResources>90 mb, 48 vcores</minResources>
+          <maxResources>270 mb, 144 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>xts_pro1</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="xts_pro1_csqueue">
+          <minResources>60 mb, 32 vcores</minResources>
+          <maxResources>180 mb, 96 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>xts_pro1</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>12 mb, 7 vcores</minResources>
+            <maxResources>180 mb, 96 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>xts_pro1_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="lxl_pro7_ddqueue">
+          <minResources>9 mb, 9 vcores</minResources>
+          <maxResources>9 mb, 9 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>lxl_pro7</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="lxl_pro7_csqueue">
+          <minResources>6 mb, 6 vcores</minResources>
+          <maxResources>6 mb, 6 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>lxl_pro7</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>2 mb, 2 vcores</minResources>
+            <maxResources>6 mb, 6 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>lxl_pro7_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="cqs_pro1_ddqueue">
+          <minResources>90 mb, 48 vcores</minResources>
+          <maxResources>270 mb, 144 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>cqs_pro1</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="cqs_pro1_csqueue">
+          <minResources>60 mb, 32 vcores</minResources>
+          <maxResources>180 mb, 96 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>cqs_pro1</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>12 mb, 7 vcores</minResources>
+            <maxResources>180 mb, 96 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>cqs_pro1_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="lxl_pro8_ddqueue">
+          <minResources>90 mb, 48 vcores</minResources>
+          <maxResources>270 mb, 144 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>lxl_pro8</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="lxl_pro8_csqueue">
+          <minResources>60 mb, 32 vcores</minResources>
+          <maxResources>180 mb, 96 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>lxl_pro8</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>12 mb, 7 vcores</minResources>
+            <maxResources>180 mb, 96 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>lxl_pro8_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+          <pool name="queue3">
+            <minResources>12 mb, 6 vcores</minResources>
+            <maxResources>180 mb, 96 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>lxl_pro8</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+          <pool name="queue2">
+            <minResources>12 mb, 6 vcores</minResources>
+            <maxResources>180 mb, 96 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>lxl_pro8</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+          <pool name="queue4">
+            <minResources>12 mb, 6 vcores</minResources>
+            <maxResources>180 mb, 96 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>lxl_pro8</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+          <pool name="queue5">
+            <minResources>12 mb, 6 vcores</minResources>
+            <maxResources>180 mb, 96 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>lxl_pro8</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="smh_pro6_ddqueue">
+          <minResources>9 mb, 9 vcores</minResources>
+          <maxResources>18 mb, 18 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>smh_pro6</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="smh_pro6_csqueue">
+          <minResources>6 mb, 6 vcores</minResources>
+          <maxResources>12 mb, 12 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>smh_pro6</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>2 mb, 2 vcores</minResources>
+            <maxResources>12 mb, 12 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>smh_pro6_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="smh_pro8_ddqueue">
+          <minResources>9 mb, 9 vcores</minResources>
+          <maxResources>18 mb, 18 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>smh_pro8</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="smh_pro8_csqueue">
+          <minResources>6 mb, 6 vcores</minResources>
+          <maxResources>12 mb, 12 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>smh_pro8</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>2 mb, 2 vcores</minResources>
+            <maxResources>12 mb, 12 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>smh_pro8_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="smh_pro7_ddqueue">
+          <minResources>9 mb, 9 vcores</minResources>
+          <maxResources>18 mb, 18 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>smh_pro7</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="smh_pro7_csqueue">
+          <minResources>6 mb, 6 vcores</minResources>
+          <maxResources>12 mb, 12 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>smh_pro7</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>2 mb, 2 vcores</minResources>
+            <maxResources>12 mb, 12 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>smh_pro7</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="smh_pro82_ddqueue">
+          <minResources>9 mb, 9 vcores</minResources>
+          <maxResources>18 mb, 18 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>smh_pro82</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="smh_pro82_csqueue">
+          <minResources>6 mb, 6 vcores</minResources>
+          <maxResources>12 mb, 12 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>smh_pro82</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>2 mb, 2 vcores</minResources>
+            <maxResources>12 mb, 12 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>smh_pro82_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="cqs_pro12_ddqueue">
+          <minResources>9 mb, 9 vcores</minResources>
+          <maxResources>18 mb, 18 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps> </aclSubmitApps>
+          <aclAdministerApps>cqs_pro12</aclAdministerApps>
+        </pool>
+        <pool name="cqs_pro12_csqueue">
+          <minResources>6 mb, 6 vcores</minResources>
+          <maxResources>12 mb, 12 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>cqs_pro12</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>2 mb, 2 vcores</minResources>
+            <maxResources>12 mb, 12 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>cqs_pro12_role1,cqs_1_6666,cqs_1_7777,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="smh_pro42_ddqueue">
+          <minResources>9 mb, 9 vcores</minResources>
+          <maxResources>18 mb, 18 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>smh_pro42</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="smh_pro42_csqueue">
+          <minResources>6 mb, 6 vcores</minResources>
+          <maxResources>12 mb, 12 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>smh_pro42</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>2 mb, 2 vcores</minResources>
+            <maxResources>12 mb, 12 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>smh_pro42_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="smh_pro52_ddqueue">
+          <minResources>12 mb, 12 vcores</minResources>
+          <maxResources>24 mb, 24 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>smh_pro52</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="smh_pro52_csqueue">
+          <minResources>8 mb, 8 vcores</minResources>
+          <maxResources>16 mb, 16 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>smh_pro52</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>2 mb, 2 vcores</minResources>
+            <maxResources>16 mb, 16 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>smh_pro52_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="zjs_pro2_ddqueue">
+          <minResources>90 mb, 48 vcores</minResources>
+          <maxResources>180 mb, 96 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>zjs_pro2</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="zjs_pro2_csqueue">
+          <minResources>60 mb, 32 vcores</minResources>
+          <maxResources>120 mb, 64 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>zjs_pro2</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>12 mb, 7 vcores</minResources>
+            <maxResources>120 mb, 64 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>zjs_pro2_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="ygz_pro2_ddqueue">
+          <minResources>184320 mb, 120 vcores</minResources>
+          <maxResources>368640 mb, 240 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>ygz_pro2_role1,</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="ygz_pro2_csqueue">
+          <minResources>122880 mb, 80 vcores</minResources>
+          <maxResources>245760 mb, 160 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>ygz_pro2</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>24576 mb, 16 vcores</minResources>
+            <maxResources>245760 mb, 160 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>ygz_pro2_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="cy_pro1_ddqueue">
+          <minResources>90 mb, 48 vcores</minResources>
+          <maxResources>180 mb, 96 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps> </aclSubmitApps>
+          <aclAdministerApps>cy_pro1</aclAdministerApps>
+        </pool>
+        <pool name="cy_pro1_csqueue">
+          <minResources>60 mb, 32 vcores</minResources>
+          <maxResources>120 mb, 64 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>cy_pro1</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>12 mb, 12 vcores</minResources>
+            <maxResources>120 mb, 64 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>cy_pro1</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+          <pool name="queue2">
+            <minResources>12 mb, 6 vcores</minResources>
+            <maxResources>120 mb, 64 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>cy_pro1</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="cy_pro2_ddqueue">
+          <minResources>90 mb, 48 vcores</minResources>
+          <maxResources>180 mb, 96 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>cy_pro2</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="cy_pro2_csqueue">
+          <minResources>60 mb, 32 vcores</minResources>
+          <maxResources>120 mb, 64 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>cy_pro2</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>12 mb, 12 vcores</minResources>
+            <maxResources>120 mb, 64 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>cy_pro2</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="cy_pro3_ddqueue">
+          <minResources>90 mb, 48 vcores</minResources>
+          <maxResources>180 mb, 96 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>cy_pro3</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="cy_pro3_csqueue">
+          <minResources>60 mb, 32 vcores</minResources>
+          <maxResources>120 mb, 64 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>cy_pro3</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>12 mb, 7 vcores</minResources>
+            <maxResources>120 mb, 64 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>cy_pro3_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="cy_pro22_ddqueue">
+          <minResources>78 mb, 27 vcores</minResources>
+          <maxResources>156 mb, 54 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>cy_pro22</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="cy_pro22_csqueue">
+          <minResources>52 mb, 18 vcores</minResources>
+          <maxResources>104 mb, 36 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>cy_pro22</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>11 mb, 4 vcores</minResources>
+            <maxResources>104 mb, 36 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>cy_pro22_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="cy_pro32_ddqueue">
+          <minResources>60 mb, 9 vcores</minResources>
+          <maxResources>120 mb, 18 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>cy_pro32</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="cy_pro32_csqueue">
+          <minResources>40 mb, 6 vcores</minResources>
+          <maxResources>80 mb, 12 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>cy_pro32</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>12 mb, 7 vcores</minResources>
+            <maxResources>120 mb, 64 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>cy_pro32_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="cy_pro4_ddqueue">
+          <minResources>90 mb, 48 vcores</minResources>
+          <maxResources>180 mb, 96 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>cy_pro4</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="cy_pro4_csqueue">
+          <minResources>60 mb, 32 vcores</minResources>
+          <maxResources>120 mb, 64 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>cy_pro4</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>12 mb, 7 vcores</minResources>
+            <maxResources>120 mb, 64 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>cy_pro4_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="cy_pro42_ddqueue">
+          <minResources>6030 mb, 178 vcores</minResources>
+          <maxResources>12060 mb, 356 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps> </aclSubmitApps>
+          <aclAdministerApps>cy_pro42</aclAdministerApps>
+        </pool>
+        <pool name="cy_pro42_csqueue">
+          <minResources>4020 mb, 118 vcores</minResources>
+          <maxResources>8040 mb, 236 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>cy_pro42</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>804 mb, 24 vcores</minResources>
+            <maxResources>8040 mb, 236 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>cy_pro42_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="smh_pro72_ddqueue">
+          <minResources>9 mb, 9 vcores</minResources>
+          <maxResources>18 mb, 18 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps> </aclSubmitApps>
+          <aclAdministerApps>smh_pro72</aclAdministerApps>
+        </pool>
+        <pool name="smh_pro72_csqueue">
+          <minResources>6 mb, 6 vcores</minResources>
+          <maxResources>12 mb, 12 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>smh_pro72</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>2 mb, 2 vcores</minResources>
+            <maxResources>12 mb, 12 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>smh_pro72_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="ygz_pro3_ddqueue">
+          <minResources>360000 mb, 231 vcores</minResources>
+          <maxResources>720000 mb, 462 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>ygz_pro3</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="ygz_pro3_csqueue">
+          <minResources>240000 mb, 154 vcores</minResources>
+          <maxResources>480000 mb, 308 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>ygz_pro3</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>48000 mb, 16 vcores</minResources>
+            <maxResources>480000 mb, 160 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>ygz_pro3_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="lxl_pro1_ddqueue">
+          <minResources>9 mb, 9 vcores</minResources>
+          <maxResources>18 mb, 18 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>lxl_pro1</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="lxl_pro1_csqueue">
+          <minResources>6 mb, 6 vcores</minResources>
+          <maxResources>12 mb, 12 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>lxl_pro1</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="smh_pro62_ddqueue">
+          <minResources>9 mb, 9 vcores</minResources>
+          <maxResources>18 mb, 18 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>smh_pro62</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="smh_pro62_csqueue">
+          <minResources>6 mb, 6 vcores</minResources>
+          <maxResources>12 mb, 12 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>smh_pro62</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>2 mb, 2 vcores</minResources>
+            <maxResources>12 mb, 12 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>smh_pro62_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="lyp_pro1_ddqueue">
+          <minResources>9 mb, 9 vcores</minResources>
+          <maxResources>18 mb, 18 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>lyp_pro1</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="lyp_pro1_csqueue">
+          <minResources>6 mb, 6 vcores</minResources>
+          <maxResources>12 mb, 12 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>lyp_pro1</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="lyp_pro2_ddqueue">
+          <minResources>9 mb, 9 vcores</minResources>
+          <maxResources>18 mb, 18 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>lyp_pro2</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="lyp_pro2_csqueue">
+          <minResources>6 mb, 6 vcores</minResources>
+          <maxResources>12 mb, 12 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>lyp_pro2</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="lyp_pro22_ddqueue">
+          <minResources>9 mb, 9 vcores</minResources>
+          <maxResources>18 mb, 18 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>lyp_pro22</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="lyp_pro22_csqueue">
+          <minResources>6 mb, 6 vcores</minResources>
+          <maxResources>12 mb, 12 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>lyp_pro22</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>2 mb, 2 vcores</minResources>
+            <maxResources>12 mb, 12 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>lyp_pro22_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="lyp_pro3_ddqueue">
+          <minResources>9 mb, 9 vcores</minResources>
+          <maxResources>18 mb, 18 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>lyp_pro3</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="lyp_pro3_csqueue">
+          <minResources>6 mb, 6 vcores</minResources>
+          <maxResources>12 mb, 12 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>lyp_pro3</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>2 mb, 2 vcores</minResources>
+            <maxResources>12 mb, 12 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>lyp_pro3_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="lyp_pro32_ddqueue">
+          <minResources>9 mb, 9 vcores</minResources>
+          <maxResources>18 mb, 18 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>lyp_pro32</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="lyp_pro32_csqueue">
+          <minResources>6 mb, 6 vcores</minResources>
+          <maxResources>12 mb, 12 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>lyp_pro32</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>2 mb, 2 vcores</minResources>
+            <maxResources>12 mb, 12 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>lyp_pro32_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="zjs_pro1_ddqueue">
+          <minResources>90000 mb, 102 vcores</minResources>
+          <maxResources>180000 mb, 204 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>zjs_pro1</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="zjs_pro1_csqueue">
+          <minResources>60000 mb, 68 vcores</minResources>
+          <maxResources>120000 mb, 136 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>zjs_pro1</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>32499 mb, 7 vcores</minResources>
+            <maxResources>324992 mb, 96 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>zjs_pro1_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+          <pool name="queue2">
+            <minResources>32499 mb, 6 vcores</minResources>
+            <maxResources>324992 mb, 96 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>zjs_sjzlczlgkz_qwe,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="ryl_pro32_ddqueue">
+          <minResources>90 mb, 231 vcores</minResources>
+          <maxResources>180 mb, 462 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>jt_jtsjzxsjptc_foundation,</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="ryl_pro32_csqueue">
+          <minResources>60 mb, 154 vcores</minResources>
+          <maxResources>120 mb, 308 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>ryl_pro32</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>64000 mb, 8 vcores</minResources>
+            <maxResources>480000 mb, 40 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>jt_jtsjzxsjptc_jtptc,jt_jtsjzxsjptc_foundation</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+          <pool name="queue2">
+            <minResources>64000 mb, 8 vcores</minResources>
+            <maxResources>480000 mb, 40 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>ryl_pro32</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="smh_pro4_ddqueue">
+          <minResources>9 mb, 9 vcores</minResources>
+          <maxResources>18 mb, 18 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps> </aclSubmitApps>
+          <aclAdministerApps>smh_pro4</aclAdministerApps>
+        </pool>
+        <pool name="smh_pro4_csqueue">
+          <minResources>6 mb, 6 vcores</minResources>
+          <maxResources>12 mb, 12 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>smh_pro4</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>12 mb, 7 vcores</minResources>
+            <maxResources>180 mb, 96 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>smh_pro4_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="ryl_pro4_ddqueue">
+          <minResources>615 mb, 9 vcores</minResources>
+          <maxResources>1229 mb, 12 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>ryl_pro4</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="ryl_pro4_csqueue">
+          <minResources>409 mb, 6 vcores</minResources>
+          <maxResources>819 mb, 8 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>ryl_pro4</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>82 mb, 2 vcores</minResources>
+            <maxResources>819 mb, 8 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>ryl_pro4_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="smh_pro5_ddqueue">
+          <minResources>9 mb, 9 vcores</minResources>
+          <maxResources>9 mb, 9 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>smh_pro5</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="smh_pro5_csqueue">
+          <minResources>6 mb, 6 vcores</minResources>
+          <maxResources>6 mb, 6 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>smh_pro5</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>2 mb, 2 vcores</minResources>
+            <maxResources>6 mb, 6 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>smh_pro5_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="ryl_pro3_csqueue">
+          <minResources>2248000 mb, 1400 vcores</minResources>
+          <maxResources>4416000 mb, 2760 vcores</maxResources>
+          <maxRunningApps>80</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps> </aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>40000 mb, 40 vcores</minResources>
+            <maxResources>320000 mb, 360 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>ryl_pro3_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+          <pool name="queue4">
+            <minResources>40000 mb, 40 vcores</minResources>
+            <maxResources>320000 mb, 360 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>ryl_pro3</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+          <pool name="queue2">
+            <minResources>2048000 mb, 1200 vcores</minResources>
+            <maxResources>4096000 mb, 2400 vcores</maxResources>
+            <maxRunningApps>80</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>tzq_aqglxt_aq,lx_audit,lixiang,jt_ptc_sec,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="lyp_pro12_ddqueue">
+          <minResources>9 mb, 9 vcores</minResources>
+          <maxResources>18 mb, 18 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>lyp_pro12</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="lyp_pro12_csqueue">
+          <minResources>6 mb, 6 vcores</minResources>
+          <maxResources>12 mb, 12 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>lyp_pro12</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>2 mb, 2 vcores</minResources>
+            <maxResources>12 mb, 12 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>lyp_pro12</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="wql_pro1_ddqueue">
+          <minResources>29991 mb, 51 vcores</minResources>
+          <maxResources>59982 mb, 102 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps> </aclSubmitApps>
+          <aclAdministerApps>wql_pro1</aclAdministerApps>
+        </pool>
+        <pool name="wql_pro1_csqueue">
+          <minResources>19994 mb, 34 vcores</minResources>
+          <maxResources>399880 mb, 68 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>wql_pro1</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>80 mb, 3 vcores</minResources>
+            <maxResources>80000 mb, 24 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>wql_pro1_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+          <pool name="queue2">
+            <minResources>80 mb, 2 vcores</minResources>
+            <maxResources>800 mb, 24 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>wql_pro1</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+          <pool name="queue3">
+            <minResources>3998 mb, 6 vcores</minResources>
+            <maxResources>39988 mb, 68 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>wql_pro1</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="gd_pro1_ddqueue">
+          <minResources>60000 mb, 60 vcores</minResources>
+          <maxResources>120000 mb, 120 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps> </aclSubmitApps>
+          <aclAdministerApps>gd_pro1</aclAdministerApps>
+        </pool>
+        <pool name="gd_pro1_csqueue">
+          <minResources>40000 mb, 40 vcores</minResources>
+          <maxResources>80000 mb, 80 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>gd_pro1</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>8000 mb, 8 vcores</minResources>
+            <maxResources>80000 mb, 80 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>gd_pro1_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+          <pool name="queue2">
+            <minResources>8000 mb, 8 vcores</minResources>
+            <maxResources>80000 mb, 80 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>gd_pro1</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+          <pool name="queue3">
+            <minResources>8000 mb, 8 vcores</minResources>
+            <maxResources>80000 mb, 80 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>gd_pro1</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="zwh_pro1_ddqueue">
+          <minResources>3000000 mb, 1200 vcores</minResources>
+          <maxResources>6000000 mb, 2400 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>zwh_pro1_role1,zwh_jtsjbscxm_lns,zwh_jtsjbscxm_zjs,zwh_jtsjbscxm_hns,zwh_jtsjbscxm_hb,zwh_jtsjbscxm_yns,zwh_jtsjbscxm_nx,zwh_jtsjbscxm_haihans,zwh_jtsjbscxm_hunans,zwh_jtsjbscxm_hebei,zwh_jtsjbscxm_bjs,zwh_jtsjbscxm_jls,zwh_jtsjbscxm_ahs,zwh_jtsjbscxm_hb,zwh_jtsjbscxm_hns,zwh_jtsjbscxm_xz,zwh_jtsjbscxm_xj,zwh_jtsjbscxm_tjs,zwh_jtsjbscxm_hlj,zwh_jtsjbscxm_fjs,zwh_jtsjbscxm_hns,zwh_jtsjbscxm_zqs,zwh_jtsjbscxm_sxs,zwh_jtsjbscxm_hbs,zwh_jtsjbscxm_shs,zwh_jtsjbscxm_jxs,zwh_jtsjbscxm_gds,zwh_jtsjbscxm_scs,zwh_jtsjbscxm_gss,zwh_jtsjbscxm_sxs1,zwh_jtsjbscxm_nmg,zwh_jtsjbscxm_jss,zwh_jtsjbscxm_sds,zwh_jtsjbscxm_gxs,zwh_jtsjbscxm_gzs,zwh_jtsjbscxm_qhs,</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="zwh_pro1_csqueue">
+          <minResources>2000000 mb, 800 vcores</minResources>
+          <maxResources>4000000 mb, 1600 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>zwh_pro1</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>400000 mb, 160 vcores</minResources>
+            <maxResources>4000000 mb, 1600 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>zwh_pro1_role1,zwh_jtsjbscxm_lns,zwh_jtsjbscxm_zjs,zwh_jtsjbscxm_hns,zwh_jtsjbscxm_hb,zwh_jtsjbscxm_yns,zwh_jtsjbscxm_nx,zwh_jtsjbscxm_haihans,zwh_jtsjbscxm_hunans,zwh_jtsjbscxm_hebei,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+          <pool name="queue2">
+            <minResources>400000 mb, 160 vcores</minResources>
+            <maxResources>4000000 mb, 1600 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>zwh_jtsjbscxm_bjs,zwh_jtsjbscxm_jls,zwh_jtsjbscxm_ahs,zwh_jtsjbscxm_hb,zwh_jtsjbscxm_hns,zwh_jtsjbscxm_xz,zwh_jtsjbscxm_xj,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+          <pool name="queue3">
+            <minResources>400000 mb, 160 vcores</minResources>
+            <maxResources>4000000 mb, 1600 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>zwh_jtsjbscxm_tjs,zwh_jtsjbscxm_hlj,zwh_jtsjbscxm_fjs,zwh_jtsjbscxm_hns,zwh_jtsjbscxm_zqs,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+          <pool name="queue4">
+            <minResources>400000 mb, 160 vcores</minResources>
+            <maxResources>4000000 mb, 1600 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>zwh_jtsjbscxm_hbs,zwh_jtsjbscxm_shs,zwh_jtsjbscxm_jxs,zwh_jtsjbscxm_gds,zwh_jtsjbscxm_scs,zwh_jtsjbscxm_gss,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+          <pool name="queue5">
+            <minResources>400000 mb, 160 vcores</minResources>
+            <maxResources>4000000 mb, 1600 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>zwh_jtsjbscxm_sxs1,zwh_jtsjbscxm_nmg,zwh_jtsjbscxm_jss,zwh_jtsjbscxm_sds,zwh_jtsjbscxm_gxs,zwh_jtsjbscxm_gzs,zwh_jtsjbscxm_qhs,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="wql_pro2_ddqueue">
+          <minResources>9 mb, 9 vcores</minResources>
+          <maxResources>18 mb, 18 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>wql_pro2</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="wql_pro2_csqueue">
+          <minResources>6 mb, 6 vcores</minResources>
+          <maxResources>12 mb, 12 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>wql_pro2</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>2 mb, 2 vcores</minResources>
+            <maxResources>12 mb, 12 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>wql_pro2_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+        <pool name="wsr_pro6_ddqueue">
+          <minResources>90 mb, 30 vcores</minResources>
+          <maxResources>180 mb, 60 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>wsr_pro6</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+        </pool>
+        <pool name="wsr_pro6_csqueue">
+          <minResources>60 mb, 20 vcores</minResources>
+          <maxResources>120 mb, 40 vcores</maxResources>
+          <maxRunningApps>50</maxRunningApps>
+          <weight>1.0</weight>
+          <schedulingMode>fair</schedulingMode>
+          <aclSubmitApps>wsr_pro6</aclSubmitApps>
+          <aclAdministerApps> </aclAdministerApps>
+          <pool name="queue1">
+            <minResources>12 mb, 4 vcores</minResources>
+            <maxResources>120 mb, 40 vcores</maxResources>
+            <maxRunningApps>50</maxRunningApps>
+            <weight>1.0</weight>
+            <schedulingMode>fair</schedulingMode>
+            <aclSubmitApps>wsr_pro6_role1,</aclSubmitApps>
+            <aclAdministerApps> </aclAdministerApps>
+          </pool>
+        </pool>
+  </pool>
+</allocations>

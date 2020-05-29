@@ -1,0 +1,6 @@
+package: github.com/lfxy/hbase_latency
+import:
+- package: github.com/influxdata/influxdb1-client
+  subpackages:
+  - v2
+- package: github.com/tsuna/gohbase

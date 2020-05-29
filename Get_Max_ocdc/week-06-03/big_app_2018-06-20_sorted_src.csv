@@ -1,0 +1,4 @@
+queue,user,id,name,started_time,peek,cpu_seconds,memory_seconds,time_elapsed,,
+root.hjpt,hjpt,application_1528978566586_323824,"select day_id,count(1) from itg_iis...day_id(Stage-1)",2018/6/20 10:21,6295,487664,1006527644,353637,,1
+root.sjyy_dm,daua,application_1528978566586_340226,'mid_family_Circle_call_info_m_201805_811',2018/6/20 19:17,1891,155304,479820798,416990,,2
+root.sjyy_dm,daua,application_1528978566586_325680,mid_all_user_voice_info_m_201805',2018/6/20 12:03,1767,142046,293098000,234508,,1

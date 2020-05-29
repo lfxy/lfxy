@@ -1,0 +1,6 @@
+root.hjpt,hjpt,application_1528978566586_31071,netmanager_lte_boa,2018/6/15 3:05,12477,6730930,13805070878,4718969,1
+root.credit_ct,credit_ct,application_1528978566586_67967,"CREATE TABLE TEMP_CRE...t.prov_id,t.day_id(Stage-1)",2018/6/15 15:01,4001,854606,1758254497,530641,53
+root.sjyy_dm,daua,application_1528978566586_37986,HIVE-eea1a632-ad64-46c7-9618-96ff8e98a0e0,2018/6/15 4:50,2938,1283340,2633828946,1752988,3
+root.hjpt,hjpt,application_1528978566586_59005,"select CALLED_HOME_CO...8184541','68184518')(Stage-1)",2018/6/15 11:40,1866,45639,95393895,263292,1
+root.sjyy_dm,daua,application_1528978566586_41495,'mid_mdn_narrowtime_position_d_852_201805',2018/6/15 5:49,1668,14217,30715617,1177121,1
+root.sjyy_dm,tata,application_1528978566586_14419,create table  tf_analysis_six_b...c.accs_nbr(Stage-2),2018/6/15 0:14,1563,189166,388898916,592386,1

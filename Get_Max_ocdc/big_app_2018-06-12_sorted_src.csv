@@ -1,0 +1,2 @@
+root.hxxt_ot,hxxt_yx,application_1528716129308_64272,"create table tmp_prgd...,a.enb_id,a.zh_label(Stage-2)",2018-06-12 17:05:10,1970-01-01 08:00:00,1758,244988,504454208,762351,RUNNING
+root.sjyy_dm,daua,application_1528716129308_53972,"select a.mdn mdn, concat_ws(""_"",collec...100(Stage-1)",2018-06-12 14:15:47,1970-01-01 08:00:00,1596,369165,758135424,404893,RUNNING

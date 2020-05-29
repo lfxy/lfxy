@@ -1,0 +1,13 @@
+AppsRunning
+AppsPending
+AppsKilled
+AppsFailed
+running_60
+AppsSubmitted
+AllocatedVCores
+AllocatedMB
+
+AllocatedContainers
+AppAttemptFirstContainerAllocationDelayAvgTime
+FairShareVCores
+FairShareMB

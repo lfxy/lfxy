@@ -1,0 +1,11 @@
+queue,user,id,name,started_time,peek_cpu,cpu_seconds,memory_seconds,time_elapsed,finalStatus,cpu_average
+root.credit_ct,credit_ct,application_1528716129308_171957,insert overwrite table tf_credit_corpora...c(Stage-1),2018/6/13 16:24,1748,677040,1393723690,734124,FINISHED,922
+root.sjyy_dm,daua,application_1528716129308_136982,MID_TOP7_TIME_ANALY_M_201805_844',2018/6/13 8:42,1182,918816,1886636819,1168366,FINISHED,786
+root.credit_ct,credit_ct,application_1528716129308_165237,insert overwrite table tf_credit_corpora...c(Stage-1),2018/6/13 15:01,1666,642091,1321351439,896848,FINISHED,716
+root.credit_ct,credit_ct,application_1528716129308_170244,insert overwrite table tf_credit_corpora...c(Stage-1),2018/6/13 16:06,1776,908596,1867466806,1335871,FINISHED,680
+root.credit_ct,credit_ct,application_1528716129308_172481,insert overwrite table tf_credit_corpora...c(Stage-1),2018/6/13 16:35,1760,931618,1914731806,1413414,FINISHED,659
+root.credit_ct,credit_ct,application_1528716129308_170070,insert overwrite table tf_credit_corpora...c(Stage-1),2018/6/13 16:05,1259,500420,1031630754,763914,FINISHED,655
+root.credit_ct,credit_ct,application_1528716129308_171739,insert overwrite table tf_credit_corpora...c(Stage-1),2018/6/13 16:27,1750,734623,1510819980,1204712,FINISHED,610
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,

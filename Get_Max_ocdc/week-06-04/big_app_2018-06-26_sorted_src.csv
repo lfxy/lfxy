@@ -1,0 +1,7 @@
+queue,user,id,name,started_time,finished_time,0,cpu_seconds,memory_seconds,time_elapsed,finalStatus
+root.credit_ct,credit_ct,application_1529601806040_224020,select count(1) from ...kb_201805_811_app_10(Stage-1),2018-06-26 09:29:07,1970-01-01 08:00:00,3986,5182167,10698225387,3891848,RUNNING
+root.credit_ct,credit_ct,application_1529601806040_237619,select count(1) from ...kb_201805_811_app_10(Stage-1),2018-06-26 15:14:45,1970-01-01 08:00:00,3800,7350500,15155453467,4474618,RUNNING
+root.credit_ct,credit_ct,application_1529601806040_245141,--------------汇总、本月ap...1.accs_nbr=t4.msisdn(Stage-1),2018-06-26 18:01:44,1970-01-01 08:00:00,3800,3209731,6618855142,1966331,RUNNING
+root.credit_ct,credit_ct,application_1529601806040_227923,select count(1) from ...kb_201805_811_app_10(Stage-1),2018-06-26 11:06:10,1970-01-01 08:00:00,3800,8048505,16594459466,4075066,RUNNING
+root.credit_ct,credit_ct,application_1529601806040_168361,--------------汇总、本月ap...1.accs_nbr=t4.msisdn(Stage-1),2018-06-25 17:21:16,1970-01-01 08:00:00,2962,16706526,34372626668,25904541,RUNNING
+root.jt_yyc_sqhx,jt_yyc_sqhx,application_1529601806040_237172,HIVE-2adb653f-5cde-4c35-ba27-ab677bbb4cbd,2018-06-26 15:05:11,1970-01-01 08:00:00,2375,128729,266706632,544309,RUNNING

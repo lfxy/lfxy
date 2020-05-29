@@ -1,0 +1,5 @@
+queue,user,id,name,started_time,finished_time,0,cpu_seconds,memory_seconds,time_elapsed,finalStatus
+root.sjyy_dm,daua,application_1530155238114_0444,create table daua_db.mid_user_flux_info_...1(Stage-1),2018-06-28 11:23:48,1970-01-01 08:00:00,6001,756196,1554880487,621460,RUNNING
+root.credit_ct,credit_ct,application_1530137151969_0011,select count(1) from ...kb_201805_811_app_10(Stage-1),2018-06-28 06:46:50,1970-01-01 08:00:00,4001,9371,23250246,57435,RUNNING
+root.credit_ct,credit_ct,application_1530137151969_3617,CREATE TABLE TEMP_CREDIT_C...t.tmp263201=0))(Stage-1),2018-06-28 09:37:18,1970-01-01 08:00:00,2007,566538,1170205048,9112563,RUNNING
+root.credit_ct,credit_ct,application_1530137151969_3618,CREATE TABLE TEMP_CREDIT_C...t.tmp263201=0))(Stage-1),2018-06-28 09:37:17,1970-01-01 08:00:00,1994,527271,1088863202,9113555,RUNNING

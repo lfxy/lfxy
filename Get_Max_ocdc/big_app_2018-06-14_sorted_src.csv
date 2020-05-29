@@ -1,0 +1,36 @@
+root.hjpt,hjpt,application_1528716129308_228587,boa_oidd_city_code_num,2018-06-14 04:35:58,1970-01-01 08:00:00,4805,365331,754270166,1815632,RUNNING
+root.hjpt,hjpt,application_1528716129308_231563,oidd_dq_report_d,2018-06-14 05:38:03,1970-01-01 08:00:00,4699,337528,697766265,1694516,RUNNING
+root.hjpt,hjpt,application_1528716129308_241188,4gcdr_recode_num_d,2018-06-14 09:00:12,1970-01-01 08:00:00,3155,94501,196740282,4887829,RUNNING
+root.hjpt,hjpt,application_1528716129308_279433,select * from crm_db...._inst_id=36509964979(Stage-1),2018-06-14 17:39:20,1970-01-01 08:00:00,2720,260641,537736078,606358,RUNNING
+root.hxxt_yx,hxxt_yx,application_1528716129308_235727,HIVE-0605d128-a342-4487-b272-b8d009272ad7,2018-06-14 07:25:45,1970-01-01 08:00:00,2438,516043,1061092475,338658,RUNNING
+root.credit_ct,credit_ct,application_1528716129308_266331,"create table temp_com..._id ,day_id ,hour_id(Stage-1)",2018-06-14 15:03:33,1970-01-01 08:00:00,2176,360834,743430347,624821,RUNNING
+root.credit_ct,credit_ct,application_1528716129308_195044,"create table temp_com..._id ,day_id ,hour_id(Stage-1)",2018-06-13 21:42:16,1970-01-01 08:00:00,2001,240563,501062343,198870,RUNNING
+root.credit_ct,credit_ct,application_1528716129308_177092,"create table temp_com..._id ,day_id ,hour_id(Stage-1)",2018-06-13 17:39:58,1970-01-01 08:00:00,2001,616570,1274699998,1229724,RUNNING
+root.credit_ct,credit_ct,application_1528716129308_195776,"create table temp_com..._id ,day_id ,hour_id(Stage-1)",2018-06-13 22:01:23,1970-01-01 08:00:00,2001,373130,773657547,252076,RUNNING
+root.credit_ct,credit_ct,application_1528716129308_196722,"create table temp_com..._id ,day_id ,hour_id(Stage-1)",2018-06-13 22:17:29,1970-01-01 08:00:00,2001,226971,473267869,186341,RUNNING
+root.credit_ct,credit_ct,application_1528716129308_234095,"create table temp_com..._id ,day_id ,hour_id(Stage-1)",2018-06-14 06:58:06,1970-01-01 08:00:00,2001,178859,370872096,195325,RUNNING
+root.credit_ct,credit_ct,application_1528716129308_234939,"create table temp_com..._id ,day_id ,hour_id(Stage-1)",2018-06-14 07:32:39,1970-01-01 08:00:00,2001,198498,411778029,225113,RUNNING
+root.credit_ct,credit_ct,application_1528716129308_231144,"create table temp_com..._id ,day_id ,hour_id(Stage-1)",2018-06-14 06:13:57,1970-01-01 08:00:00,2001,602352,1245137010,442064,RUNNING
+root.credit_ct,credit_ct,application_1528716129308_212381,"create table temp_com..._id ,day_id ,hour_id(Stage-1)",2018-06-14 02:00:50,1970-01-01 08:00:00,2001,1744659,3590284733,1207080,RUNNING
+root.credit_ct,credit_ct,application_1528716129308_205466,"create table temp_com..._id ,day_id ,hour_id(Stage-1)",2018-06-14 00:43:29,1970-01-01 08:00:00,2000,556979,1147961793,435528,RUNNING
+root.credit_ct,credit_ct,application_1528716129308_256321,"create table temp_com..._id ,day_id ,hour_id(Stage-1)",2018-06-14 12:38:09,1970-01-01 08:00:00,2000,358670,736872008,527066,RUNNING
+root.credit_ct,credit_ct,application_1528716129308_215252,"create table temp_com..._id ,day_id ,hour_id(Stage-1)",2018-06-14 02:46:32,1970-01-01 08:00:00,1999,42659,89363573,268203,RUNNING
+root.credit_ct,credit_ct,application_1528716129308_195407,"create table temp_com..._id ,day_id ,hour_id(Stage-1)",2018-06-13 21:38:34,1970-01-01 08:00:00,1998,107797,224519831,120755,RUNNING
+root.credit_ct,credit_ct,application_1528716129308_192170,"create table temp_com..._id ,day_id ,hour_id(Stage-1)",2018-06-13 20:54:17,1970-01-01 08:00:00,1998,6442,15118715,76402,RUNNING
+root.credit_ct,credit_ct,application_1528716129308_199961,"create table temp_com..._id ,day_id ,hour_id(Stage-1)",2018-06-13 23:15:15,1970-01-01 08:00:00,1997,444610,919577601,324586,RUNNING
+root.credit_ct,credit_ct,application_1528716129308_176988,"create table temp_com..._id ,day_id ,hour_id(Stage-1)",2018-06-13 17:34:37,1970-01-01 08:00:00,1992,506146,1049387544,349745,RUNNING
+root.credit_ct,credit_ct,application_1528716129308_186085,insert overwrite table tf_credit_corpora...c(Stage-1),2018-06-13 19:21:16,1970-01-01 08:00:00,1975,220045,453774329,254484,RUNNING
+root.credit_ct,credit_ct,application_1528716129308_192943,"create table temp_com..._id ,day_id ,hour_id(Stage-1)",2018-06-13 21:08:40,1970-01-01 08:00:00,1968,51042,107480346,113196,RUNNING
+root.credit_ct,credit_ct,application_1528716129308_235494,"create table temp_com..._id ,day_id ,hour_id(Stage-1)",2018-06-14 07:51:56,1970-01-01 08:00:00,1934,276385,570039551,269249,RUNNING
+root.credit_ct,credit_ct,application_1528716129308_227020,"create table temp_com..._id ,day_id ,hour_id(Stage-1)",2018-06-14 04:45:27,1970-01-01 08:00:00,1911,325803,672905764,345452,RUNNING
+root.credit_ct,credit_ct,application_1528716129308_237052,"create table temp_com..._id ,day_id ,hour_id(Stage-1)",2018-06-14 08:50:04,1970-01-01 08:00:00,1783,1210646,2491497664,987064,RUNNING
+root.credit_ct,credit_ct,application_1528716129308_238150,"create table temp_com..._id ,day_id ,hour_id(Stage-1)",2018-06-14 09:14:25,1970-01-01 08:00:00,1780,93459,193279896,428254,RUNNING
+root.credit_ct,credit_ct,application_1528716129308_209844,"create table temp_com..._id ,day_id ,hour_id(Stage-1)",2018-06-14 01:16:37,1970-01-01 08:00:00,1780,845586,1743570302,854879,RUNNING
+root.credit_ct,credit_ct,application_1528716129308_190219,"----近三个月的夜间通话时长 create table temp_c...msisdn(Stage-1)",2018-06-13 20:18:15,1970-01-01 08:00:00,1762,115350,238566036,136948,RUNNING
+root.hjpt,hjpt,application_1528716129308_245883,HIVE-e62bc644-e11c-40fe-94bc-ae5a95854953,2018-06-14 10:02:45,1970-01-01 08:00:00,1747,88923,184087828,1435020,RUNNING
+root.credit_ct,credit_ct,application_1528716129308_248258,insert overwrite table tf_credit_corpora...c(Stage-1),2018-06-14 10:50:56,1970-01-01 08:00:00,1731,154626,318623375,347378,RUNNING
+root.credit_ct,credit_ct,application_1528716129308_274404,insert overwrite table tf_credit_corpora...c(Stage-1),2018-06-14 15:47:43,1970-01-01 08:00:00,1726,327874,675921804,1890699,RUNNING
+root.credit_ct,credit_ct,application_1528716129308_262528,"---近2个月的对端通话时长top5 create table temp...rn<=2(Stage-1)",2018-06-14 12:57:38,1970-01-01 08:00:00,1723,54114,112466172,293563,RUNNING
+root.sjyy_dm,daua,application_1528716129308_253680,HIVE-46468b1d-2869-49b9-aa8b-92d1d8ea4259,2018-06-14 11:29:23,1970-01-01 08:00:00,1720,1122968,2305478793,2849812,RUNNING
+root.hjpt,hjpt,application_1528716129308_282167,select * from crm_db...._inst_id=36510016678(Stage-1),2018-06-14 17:51:01,1970-01-01 08:00:00,1672,119233,246037027,507394,RUNNING
+root.credit_ct,credit_ct,application_1528716129308_181406,"create table temp_com..._id ,day_id ,hour_id(Stage-1)",2018-06-13 18:29:26,1970-01-01 08:00:00,1609,865833,1792400714,1564259,RUNNING

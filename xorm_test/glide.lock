@@ -1,0 +1,14 @@
+hash: 6a36035b776414e9b15a739919db6dc0ce2fa345f4af06895567c02a3438803e
+updated: 2017-09-19T15:57:32.394855349+08:00
+imports:
+- name: github.com/go-sql-driver/mysql
+  version: be22b3051b3467094e9908389d900e74f72cf08f
+- name: github.com/go-xorm/builder
+  version: c8871c857d2555fbfbd8524f895be5386d3d8836
+- name: github.com/go-xorm/core
+  version: da1adaf7a28ca792961721a34e6e04945200c890
+- name: github.com/go-xorm/xorm
+  version: d9565718bc41c8a6a02f6073979bade790cb3e45
+- name: github.com/satori/go.uuid
+  version: 5bf94b69c6b68ee1b541973bb8e1144db23a194b
+testImports: []

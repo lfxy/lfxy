@@ -1,0 +1,76 @@
+hash: 789cbc59014198462df1a7444710250cd1395c655a6d737ff3d6e3586985450e
+updated: 2020-05-27T15:27:28.455877+08:00
+imports:
+- name: github.com/golang/protobuf
+  version: d04d7b157bb510b1e0c10132224b616ac0e26b17
+  subpackages:
+  - proto
+- name: github.com/influxdata/influxdb1-client
+  version: 02f0bf5dbca364fe200ee3f5709c8cc0c9bda0d0
+  subpackages:
+  - models
+  - pkg/escape
+  - v2
+- name: github.com/parnurzeal/gorequest
+  version: b735e503d8bf955a72baf89723cdb50ab0bd668c
+- name: github.com/pkg/errors
+  version: 614d223910a179a466c1767a985424175c39b465
+- name: github.com/samuel/go-zookeeper
+  version: 2cc03de413da42869e2db7ce7965d3e978d917eb
+  subpackages:
+  - zk
+- name: github.com/sirupsen/logrus
+  version: 42baed85eb233bfc674562af0ef6e99c45f5f384
+- name: github.com/tsuna/gohbase
+  version: e8dcfdb6a5fba3d756cb0c697f85344ae68cfd54
+  subpackages:
+  - filter
+  - hrpc
+  - pb
+  - region
+  - zk
+- name: golang.org/x/net
+  version: 0ba52f642ac2f9371a88bfdde41f4b4e195a37c0
+  subpackages:
+  - publicsuffix
+- name: golang.org/x/sys
+  version: 05986578812163b26672dabd9b425240ae2bb0ad
+  subpackages:
+  - internal/unsafeheader
+  - unix
+  - windows
+- name: google.golang.org/protobuf
+  version: 4f55bf8d21a40367102b23a22432bf7cd1bc85f0
+  subpackages:
+  - encoding/prototext
+  - encoding/protowire
+  - internal/descfmt
+  - internal/descopts
+  - internal/detrand
+  - internal/encoding/defval
+  - internal/encoding/messageset
+  - internal/encoding/tag
+  - internal/encoding/text
+  - internal/errors
+  - internal/fieldnum
+  - internal/fieldsort
+  - internal/filedesc
+  - internal/filetype
+  - internal/flags
+  - internal/genname
+  - internal/impl
+  - internal/mapsort
+  - internal/pragma
+  - internal/set
+  - internal/strs
+  - internal/version
+  - proto
+  - reflect/protoreflect
+  - reflect/protoregistry
+  - runtime/protoiface
+  - runtime/protoimpl
+- name: modernc.org/b
+  version: be3cc8a0f789fc799067123b8e6a6b0962513a73
+- name: moul.io/http2curl
+  version: 9280a7ca1854f93dfee71d5e7d448627123efaf5
+testImports: []

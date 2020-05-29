@@ -1,0 +1,22 @@
+root.hjpt,hjpt,application_1528716129308_133476,get_count_to_kafka,2018/6/13 8:02,3791,387106,798322800,357280,average_cpu
+root.sjyy_dm,daua,application_1528716129308_175406,insert overwrite table daua_db...a.mdn=d.mdn(Stage-16),2018/6/13 17:09,2365,255372,525764862,361813,
+root.dw,dw_etl,application_1528716129308_107802,HIVE-87789e62-f38d-4771-a928-b3162ec3fe4b,2018/6/13 3:00,2019,2204104,4518617575,7326487,
+root.credit_ct,credit_ct,application_1528716129308_162394,insert overwrite table tf_credit_corpora...c(Stage-1),2018/6/13 14:05,1809,250821,517204669,1761985,
+root.credit_ct,credit_ct,application_1528716129308_145100,insert overwrite table tf_credit_corpora...c(Stage-1),2018/6/13 10:09,1779,12408,27194063,251778,
+root.credit_ct,credit_ct,application_1528716129308_153285,insert overwrite table tf_credit_corpora...c(Stage-1),2018/6/13 11:56,1779,586855,1207355494,722844,
+root.hjtest.hjtest,hjtest,application_1528716129308_123129,'SUM_FIX_DPI_URL_D_20180610',2018/6/13 6:17,1777,87921,181890668,319026,
+root.credit_ct,credit_ct,application_1528716129308_153351,insert overwrite table tf_credit_corpora...c(Stage-1),2018/6/13 12:01,1774,264569,544521380,734717,
+root.credit_ct,credit_ct,application_1528716129308_171957,insert overwrite table tf_credit_corpora...c(Stage-1),2018/6/13 16:24,1748,677040,1393723690,734124,922
+root.credit_ct,credit_ct,application_1528716129308_157579,insert overwrite table tf_credit_corpora...c(Stage-1),2018/6/13 12:49,1745,769191,1580667931,2949734,
+root.dw,dw_etl,application_1528716129308_120274,dsstt_db.dm_mid_dpi_fix_behavior_agg_daily_851_20180612,2018/6/13 5:41,1711,1124803,2306764277,2176422,
+root.sjyy_dm,daua,application_1528716129308_127827,MID_TOP7_TIME_ANALY_M_201805_834',2018/6/13 7:17,1652,189580,389981383,329860,
+root.hjtest.hjstandard,hjtest,application_1528716129308_115638,'MID_MBL_DPI_USER_SUM_H_D_20180610',2018/6/13 4:53,1581,173529,357213181,556448,
+root.credit_ct,credit_ct,application_1528716129308_166140,insert overwrite table tf_credit_corpora...c(Stage-1),2018/6/13 15:13,1562,570430,1173934824,1917873,
+root.dw,dw_etl,application_1528716129308_107797,HIVE-043721b5-b3d3-4221-a746-d1ae8d5fa70b,2018/6/13 3:00,1508,2358695,4835247299,7929534,
+root.credit_ct,credit_ct,application_1528716129308_154254,insert overwrite table tf_credit_corpora...c(Stage-1),2018/6/13 11:43,1479,45016,93850914,302964,
+root.sjyy_dm,daua,application_1528716129308_136982,MID_TOP7_TIME_ANALY_M_201805_844',2018/6/13 8:42,1182,918816,1886636819,1168366,786
+root.credit_ct,credit_ct,application_1528716129308_165237,insert overwrite table tf_credit_corpora...c(Stage-1),2018/6/13 15:01,1666,642091,1321351439,896848,716
+root.credit_ct,credit_ct,application_1528716129308_170244,insert overwrite table tf_credit_corpora...c(Stage-1),2018/6/13 16:06,1776,908596,1867466806,1335871,680
+root.credit_ct,credit_ct,application_1528716129308_172481,insert overwrite table tf_credit_corpora...c(Stage-1),2018/6/13 16:35,1760,931618,1914731806,1413414,659
+root.credit_ct,credit_ct,application_1528716129308_170070,insert overwrite table tf_credit_corpora...c(Stage-1),2018/6/13 16:05,1259,500420,1031630754,763914,655
+root.credit_ct,credit_ct,application_1528716129308_171739,insert overwrite table tf_credit_corpora...c(Stage-1),2018/6/13 16:27,1750,734623,1510819980,1204712,610

@@ -1,0 +1,37 @@
+apiVersion: v1
+data:
+  example: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>                                                                                                                             \n<beans
+    xmlns=\"http://www.springframework.org/schema/beans\"                                                                                                         \n
+    \      xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"                                                                                                       \n
+    \      xmlns:util=\"http://www.springframework.org/schema/util\"                                                                                                     \n
+    \      xsi:schemaLocation=\"                                                                                                                                        \n
+    \       http://www.springframework.org/schema/beans                                                                                                                \n
+    \       http://www.springframework.org/schema/beans/spring-beans.xsd                                                                                               \n
+    \       http://www.springframework.org/schema/util                                                                                                                 \n
+    \       http://www.springframework.org/schema/util/spring-util.xsd\">                                                                                               \n<bean
+    id=\"ignite.cfg\"                                                                                                                                              \n
+    \   class=\"org.apache.ignite.configuration.IgniteConfiguration\">                                                                                                   \n
+    \   <property name=\"discoverySpi\">                                                                                                                                 \n
+    \       <bean class=\"org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi\">                                                                                         \n
+    \               <property name=\"ipFinder\">                                                                                                                         \n
+    \                   <bean                                                                                                                                          \nclass=\"org.apache.ignite.spi.discovery.tcp.ipfinder.kubernetes.TcpDiscoveryKubernetesIpFinder\">
+    \                                                                   \n<property
+    name=\"serviceName\" value=\"ignite\"/>                                                                                                                      \n<property
+    name=\"namespace\" value=\"czq-project\"/>                                                                                                                     \n
+    \            </bean>                                                                                                                                               \n
+    \           </property>                                                                                                                                            \n
+    \       </bean>                                                                                                                                                    \n
+    \   </property>                                                                                                                                                    \n</bean>
+    \                                                                                                                                                           \n</beans>
+    \  "
+kind: ConfigMap
+metadata:
+  annotations:
+    openshift.io/generated-by: OpenShiftNewApp
+  labels:
+    app: ignite-persistent
+    component: ignite
+    template: ignite-persistent
+    wdf.billing: "true"
+  name: czq-conf 
+  namespace: czq-project

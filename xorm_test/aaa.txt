@@ -1,0 +1,100 @@
+func CommunicateProjects(project_uuid, service_addr string)(error){
+    addr_arr := strings.Split(service_addr, ",")
+    addr_part := strings.Split(addr_arr[0], ".")
+    if len(addr_part) < 3 {
+        return fmt.Errorf("---CommunicateProjects service_addr error format:%s", service_addr)
+    }
+    depend_project_name := ""
+    project_name_index := 0
+    if addr_part[3] == "svc" {
+        depend_project_name = addr_part[2]
+        project_name_index = 2
+    } else if addr_part[2] == "svc" {
+        depend_project_name = addr_part[1]
+        project_name_index = 1
+    } else {
+        return fmt.Errorf("CommunicateProjects service_addr error format and need svc:%s", service_addr)
+    }
+// check other addrs
+    for _, addr_obj := range addr_arr {
+        addr_part := strings.Split(addr_obj, ".")
+        if len(addr_part) < 3 {
+            return fmt.Errorf("CommunicateProjects service_addr error format:%s", service_addr)
+        }
+        if addr_part[project_name_index + 1] != "svc" {
+            return fmt.Errorf("CommunicateProjects in check service_addr error format:%s", service_addr)
+        }
+        if addr_part[project_name_index] != depend_project_name {
+            return fmt.Errorf("CommunicateProjects in check cannot depend more than 1 service:%s", service_addr)
+        }
+    }
+
+    current_proj, err := GetProjectByUuid(project_uuid)
+    if err != nil {
+        return fmt.Errorf("CommunicateProjects select data project_uuid:%s\n error:%s", project_uuid, err)
+    }
+    if current_proj.ProjectName == depend_project_name {
+        return nil
+    }
+    depend_proj, err := GetProjectByName(current_proj.UserId, depend_project_name)
+    if err != nil {
+        return fmt.Errorf("CommunicateProjects select data user_id:%s, project_name:%s, error:%s", current_proj.UserId, depend_project_name, err)
+    }
+
+// update projects communicated_projects
+    current_project_map := make(map[string]int)
+    depend_project_map := make(map[string]int)
+    if current_proj.CommunicatedProjects != "" {
+        err = json.Unmarshal([]byte(current_proj.CommunicatedProjects), &current_project_map)
+        if err != nil {
+            return fmt.Errorf("CommunicateProjects parse json current_project err:%s", err.Error())
+        }
+    }
+    if depend_proj.CommunicatedProjects != "" {
+        err = json.Unmarshal([]byte(depend_proj.CommunicatedProjects), &depend_project_map)
+        if err != nil {
+            return fmt.Errorf("CommunicateProjects parse json depend_project err:%s", err.Error())
+        }
+    }
+    depend_project_num, exist := current_project_map[depend_proj.ProjectUuid]
+    depend_project_num_dup, exist_dup := depend_project_map[current_proj.ProjectUuid]
+    if exist_dup != exist || depend_project_num_dup != depend_project_num {
+        return fmt.Errorf("CommunicateProjects depend_num does not equal %s:%s\n%s:%s", current_proj.ProjectUuid, current_proj.CommunicatedProjects, depend_proj.ProjectUuid, depend_proj.CommunicatedProjects)
+    }
+
+    if !exist || depend_project_num == 0 {
+        network_cmd := "oadm pod-network join-projects --to="
+        network_cmd += depend_project_name
+        network_cmd += " "
+        network_cmd += current_proj.ProjectName
+        out, err := exec.Command("bash", "-c", network_cmd).CombinedOutput()
+        if err != nil {
+            return fmt.Errorf("CommunicateProjects err:%s, out:%s", err.Error(), string(out))
+        }
+        if !exist {
+            current_project_map[depend_proj.ProjectUuid] = 1
+        } else {
+            current_project_map[depend_proj.ProjectUuid] = depend_project_num + 1
+        }
+    } else {
+        current_project_map[depend_proj.ProjectUuid] = depend_project_num + 1
+    }
+    current_project_str, err := json.Marshal(current_project_map)
+    if err != nil {
+        return fmt.Errorf("CommunicateProjects marshal current_project err:%s", err.Error())
+    }
+    UpdateProjectsTable(project_uuid, "communicated_projects", string(current_project_str))
+
+    if !exist_dup {
+        depend_project_map[current_proj.ProjectUuid] = 1
+    } else {
+        depend_project_map[current_proj.ProjectUuid] = depend_project_num_dup + 1
+    }
+    depend_project_str, err := json.Marshal(depend_project_map)
+    if err != nil {
+        return fmt.Errorf("CommunicateProjects marshal depend_project err:%s", err.Error())
+    }
+    UpdateProjectsTable(depend_proj.ProjectUuid, "communicated_projects", string(depend_project_str))
+
+    return nil
+}

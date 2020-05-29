@@ -1,0 +1,32 @@
+queue,user,id,name,started_time,finished_time,cpu_average,cpu_seconds,memory_seconds,time_elapsed,finalStatus
+root.credit_ct,credit_ct,application_1530137151969_0011,select count(1) from ...kb_201805_811_app_10(Stage-1),2018-06-28 06:46:50,1970-01-01 08:00:00,4001,9371,23250246,57435,RUNNING
+root.credit_ct,credit_ct,application_1530137151969_0011,select count(1) from ...kb_201805_811_app_10(Stage-1),2018-06-28 06:46:50,1970-01-01 08:00:00,4001,1178700,2472394109,357471,RUNNING
+root.credit_ct,credit_ct,application_1530137151969_0011,select count(1) from ...kb_201805_811_app_10(Stage-1),2018-06-28 06:46:50,1970-01-01 08:00:00,4001,2378535,4938238060,657607,RUNNING
+root.credit_ct,credit_ct,application_1530137151969_0011,select count(1) from ...kb_201805_811_app_10(Stage-1),2018-06-28 06:46:50,1970-01-01 08:00:00,4001,3575858,7399462727,957772,RUNNING
+root.credit_ct,credit_ct,application_1530137151969_0011,select count(1) from ...kb_201805_811_app_10(Stage-1),2018-06-28 06:46:50,1970-01-01 08:00:00,4001,4774332,9858847778,1257920,RUNNING
+root.credit_ct,credit_ct,application_1530137151969_0011,select count(1) from ...kb_201805_811_app_10(Stage-1),2018-06-28 06:46:50,1970-01-01 08:00:00,4001,5974728,12318246674,1558068,RUNNING
+root.credit_ct,credit_ct,application_1530137151969_0011,select count(1) from ...kb_201805_811_app_10(Stage-1),2018-06-28 06:46:50,1970-01-01 08:00:00,4001,7174727,14776403574,1858260,RUNNING
+root.hjpt,hjpt,application_1530137151969_2169,eda_iot_ddr_job_name,2018-06-28 08:08:29,1970-01-01 08:00:00,1054,154445,1041332180,262751,RUNNING
+root.normal_queues.converge.hjpt.prod,hjpt,application_1530137151969_5138,anhui_itf_billing_mbl_data_20180628_09,2018-06-28 10:57:46,1970-01-01 08:00:00,1088,183344,1871404484,982297,RUNNING
+root.weizhirc,weizhirc,application_1530137151969_3518,"insert into table  we...,a.mdn_code,a.msisdn(Stage-1)",2018-06-28 09:34:06,1970-01-01 08:00:00,1402,126785,261102059,6302931,RUNNING
+root.hjpt,hjpt,application_1530155238114_0232,clean:zhejiang_itf_4gdpi_mbl_20180628_10 DPI,2018-06-28 11:15:22,1970-01-01 08:00:00,1954,562580,1730898854,826927,RUNNING
+root.hjpt,hjpt,application_1530155238114_0208,clean:guangdong_itf_4gdpi_mbl_20180628_10 DPI,2018-06-28 11:15:20,1970-01-01 08:00:00,1746,508589,1564648168,828541,RUNNING
+root.hjpt,hjpt,application_1530155238114_0234,clean:shanxi1_itf_4gdpi_mbl_20180628_10 DPI,2018-06-28 11:15:22,1970-01-01 08:00:00,1736,506482,1558195769,826570,RUNNING
+root.hjtest.hjtest,hjtest,application_1530155238114_0416,insert overwrite table gln_...length(mdn)=11(Stage-2),2018-06-28 11:23:26,1970-01-01 08:00:00,1317,99806,205837148,343346,RUNNING
+root.normal_queues.proccess.ocdc.prod,ocdc,application_1530155238114_0415,create table ods_tmp_...d_surfing_po_spec_cd(Stage-1),2018-06-28 11:23:26,1970-01-01 08:00:00,1257,115693,953818982,343263,RUNNING
+root.hjpt,hjpt,application_1530155238114_0237,clean:chongqing_itf_4gdpi_mbl_20180628_10 DPI,2018-06-28 11:15:22,1970-01-01 08:00:00,1057,328357,1009960095,826558,RUNNING
+root.sjyy_dm,daua,application_1530155238114_0444,create table daua_db.mid_user_flux_info_...1(Stage-1),2018-06-28 11:23:48,1970-01-01 08:00:00,6001,756196,1554880487,621460,RUNNING
+root.hjpt,hjpt,application_1530155238114_0208,clean:guangdong_itf_4gdpi_mbl_20180628_10 DPI,2018-06-28 11:15:20,1970-01-01 08:00:00,1574,1031388,3170433875,1128751,RUNNING
+root.sjyy_dm,daua,application_1530155238114_0444,create table daua_db.mid_user_flux_info_...1(Stage-1),2018-06-28 11:23:48,1970-01-01 08:00:00,5574,2526221,5183256761,921718,RUNNING
+root.normal_queues.proccess.ocdc.prod,ocdc,application_1530155238114_0415,create table ods_tmp_...d_surfing_po_spec_cd(Stage-1),2018-06-28 11:23:26,1970-01-01 08:00:00,1276,187177,1780638648,943735,RUNNING
+root.sjyy_dm,daua,application_1530155238114_0444,create table daua_db.mid_user_flux_info_...1(Stage-1),2018-06-28 11:23:48,1970-01-01 08:00:00,6001,4301674,8822392469,1221974,RUNNING
+root.sjyy_dm,daua,application_1530155238114_0444,create table daua_db.mid_user_flux_info_...1(Stage-1),2018-06-28 11:23:48,1970-01-01 08:00:00,5999,6092679,12490530254,1522372,RUNNING
+root.sjyy_dm,daua,application_1530155238114_0444,create table daua_db.mid_user_flux_info_...1(Stage-1),2018-06-28 11:23:48,1970-01-01 08:00:00,6001,7903661,16199887197,1822630,RUNNING
+root.priority_queues.proccess.ocdc.prod,ocdc,application_1530155238114_1896,create table ods_tmp_....trmnl_mbl_234g_flag(Stage-1),2018-06-28 12:02:26,1970-01-01 08:00:00,2295,27745,237551508,104907,RUNNING
+root.hjpt,hjpt,application_1530155238114_1683,clean:guangdong_itf_4gdpi_mbl_20180628_10 Warn DPI,2018-06-28 11:51:05,1970-01-01 08:00:00,1966,15486,50650285,786194,RUNNING
+root.credit_ct,credit_ct,application_1530137151969_3617,CREATE TABLE TEMP_CREDIT_C...t.tmp263201=0))(Stage-1),2018-06-28 09:37:18,1970-01-01 08:00:00,1738,12143,26449898,8812368,RUNNING
+root.credit_ct,credit_ct,application_1530137151969_3617,CREATE TABLE TEMP_CREDIT_C...t.tmp263201=0))(Stage-1),2018-06-28 09:37:18,1970-01-01 08:00:00,2007,566538,1170205048,9112563,RUNNING
+root.credit_ct,credit_ct,application_1530137151969_3618,CREATE TABLE TEMP_CREDIT_C...t.tmp263201=0))(Stage-1),2018-06-28 09:37:17,1970-01-01 08:00:00,1994,527271,1088863202,9113555,RUNNING
+root.credit_ct,credit_ct,application_1530137151969_3615,CREATE TABLE TEMP_CREDIT_C...t.tmp263201=0))(Stage-1),2018-06-28 09:37:18,1970-01-01 08:00:00,1106,58862,122695647,10313014,RUNNING
+root.credit_ct,credit_ct,application_1530137151969_3615,CREATE TABLE TEMP_CREDIT_C...t.tmp263201=0))(Stage-1),2018-06-28 09:37:18,1970-01-01 08:00:00,1101,386513,800360094,10613435,RUNNING
+root.credit_ct,credit_ct,application_1530137151969_3615,CREATE TABLE TEMP_CREDIT_C...t.tmp263201=0))(Stage-1),2018-06-28 09:37:18,1970-01-01 08:00:00,1009,701182,1451107482,10913674,RUNNING

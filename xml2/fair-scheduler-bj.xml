@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<allocations>
+    <pool name="root">
+        <weight>1.0</weight>
+        <schedulingPolicy>drf</schedulingPolicy>
+        <aclSubmitApps>yarn </aclSubmitApps>
+        <aclAdministerApps>yarn yarn</aclAdministerApps>
+        <pool name="bigdata" type="parent">
+            <minResources>92000 mb, 23000 vcores</minResources>
+            <maxResources>94208000 mb, 23000 vcores</maxResources>
+            <weight>1.0</weight>
+            <schedulingPolicy>drf</schedulingPolicy>
+            <aclSubmitApps>yarn </aclSubmitApps>
+            <aclAdministerApps>yarn yarn</aclAdministerApps>
+            <pool name="motl" type="parent">
+                <minResources>77824000 mb, 19000 vcores</minResources>
+                <maxResources>77824000 mb, 19000 vcores</maxResources>
+                <weight>1.0</weight>
+                <schedulingPolicy>drf</schedulingPolicy>
+                <aclSubmitApps>yarn,hdfs,yarn yarn</aclSubmitApps>
+                <aclAdministerApps>yarn </aclAdministerApps>
+                <pool name="mt1">
+                    <minResources>8192000 mb, 2000 vcores</minResources>
+                    <maxResources>16384000 mb, 4000 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>dim,dwi_pro,dws_pro,dal_pro,dal_term </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+                <pool name="mt2">
+                    <minResources>10240000 mb, 2500 vcores</minResources>
+                    <maxResources>24576000 mb, 6000 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>dim,dwi_pro,dws_pro,dal_pro,data_m,data_integ,data_bstl,tuomin,dal_term </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+                <pool name="mt3">
+                    <minResources>4096000 mb, 1000 vcores</minResources>
+                    <maxResources>8192000 mb, 2000 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>dim,dwi_pro,dws_pro,dal_pro,dal_term </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+                <pool name="mt4">
+                    <minResources>6144000 mb, 1500 vcores</minResources>
+                    <maxResources>10240000 mb, 2500 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>dim,dwi_pro,dws_pro,dal_pro,data_m,data_integ,data_bstl,tuomin,dwm </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+                <pool name="mt5">
+                    <minResources>4096000 mb, 1000 vcores</minResources>
+                    <maxResources>10240000 mb, 2500 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>dim,dwi_pro,dws_pro,dal_pro,dal_dev </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+                <pool name="mt6">
+                    <minResources>4000 mb, 1000 vcores</minResources>
+                    <maxResources>10240000 mb, 2500 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>dim,dwi_pro,dws_pro,dal_pro,data_check,hadp </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+                <pool name="mt7">
+                    <minResources>9011200 mb, 1100 vcores</minResources>
+                    <maxResources>73728000 mb, 9000 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>189cnbstl,cdrfixbstl,cdrmblbstl,crmbstl,dpifixbstl,dpiqixinbstl,idcbstl,odmsbstl,odsbstl,oiddbstl,ossbstl,termbstl,termlxvabstl,tsmbstl,vsopbstl,wcdrbstl,termvabstl,dpi_tag,dim,propm </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+                <pool name="mt8">
+                    <minResources>4096000 mb, 1000 vcores</minResources>
+                    <maxResources>10240000 mb, 2500 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>dal_pro,189cnbstl,cdrfixbstl,cdrmblbstl,crmbstl,dpifixbstl,dpiqixinbstl,idcbstl,odmsbstl,odsbstl,oiddbstl,ossbstl,termbstl,termlxvabstl,tsmbstl,vsopbstl,wcdrbstl,termvabstl,dwi_pro,dws_pro,dal_pro,dim,probdcsc </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+                <pool name="mt9">
+                    <minResources>8192000 mb, 1000 vcores</minResources>
+                    <maxResources>8192000 mb, 1000 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>dal_pro,dwi_pro </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+                <pool name="mt10">
+                    <minResources>8192000 mb, 1000 vcores</minResources>
+                    <maxResources>8192000 mb, 1000 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>dal_pro </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+            </pool>
+            <pool name="o2o" type="parent">
+                <minResources>11468800 mb, 2800 vcores</minResources>
+                <maxResources>11468800 mb, 2800 vcores</maxResources>
+                <weight>1.0</weight>
+                <schedulingPolicy>drf</schedulingPolicy>
+                <aclSubmitApps>yarn,hdfs,yarn yarn</aclSubmitApps>
+                <aclAdministerApps>yarn yarn</aclAdministerApps>
+                <pool name="o2o1">
+                    <minResources>1228800 mb, 300 vcores</minResources>
+                    <maxResources>2048000 mb, 500 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>o2otask,dpiqixinbstl,o2oestate,dal_csm,o2ocsm,dal_traffic </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+                <pool name="o2o2">
+                    <minResources>8192000 mb, 2000 vcores</minResources>
+                    <maxResources>8192000 mb, 2000 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>o2oestate,hadp,dal_pro,dal_o2o </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+                <pool name="o2o3">
+                    <minResources>4096000 mb, 1000 vcores</minResources>
+                    <maxResources>4096000 mb, 1000 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>o2o_snail,dal_snail </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+                <pool name="o2o4">
+                    <minResources>1228800 mb, 300 vcores</minResources>
+                    <maxResources>1228800 mb, 300 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>rljk </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+            </pool>
+            <pool name="operator" type="parent">
+                <weight>1.0</weight>
+                <schedulingPolicy>drf</schedulingPolicy>
+                <aclSubmitApps>yarn </aclSubmitApps>
+                <aclAdministerApps>yarn yarn</aclAdministerApps>
+                <pool name="op1">
+                    <minResources>1040 mb, 0 vcores</minResources>
+                    <maxResources>1638400 mb, 0 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps> </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+            </pool>
+            <pool name="solution" type="parent">
+                <minResources>16384000 mb, 4000 vcores</minResources>
+                <maxResources>16384000 mb, 4000 vcores</maxResources>
+                <weight>1.0</weight>
+                <schedulingPolicy>drf</schedulingPolicy>
+                <aclSubmitApps>yarn </aclSubmitApps>
+                <aclAdministerApps>yarn yarn</aclAdministerApps>
+                <pool name="sol1">
+                    <minResources>2662400 mb, 650 vcores</minResources>
+                    <maxResources>6144000 mb, 1500 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>sqhk,prohkmx </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+                <pool name="sol2">
+                    <minResources>2662400 mb, 650 vcores</minResources>
+                    <maxResources>4096000 mb, 1000 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>sqcs,rop </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+                <pool name="sol3">
+                    <minResources>2662400 mb, 650 vcores</minResources>
+                    <maxResources>4096000 mb, 1000 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>sqcs,prohkmx </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+                <pool name="sol4">
+                    <minResources>14950400 mb, 3650 vcores</minResources>
+                    <maxResources>16384000 mb, 4500 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>dws_pro,dal_pro,probdcsc,bdcsc2,dwi_pro,data_m </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+            </pool>
+            <pool name="product" type="parent">
+                <minResources>22528000 mb, 5500 vcores</minResources>
+                <maxResources>22528000 mb, 5500 vcores</maxResources>
+                <weight>1.0</weight>
+                <schedulingPolicy>drf</schedulingPolicy>
+                <aclSubmitApps>yarn </aclSubmitApps>
+                <aclAdministerApps>yarn yarn</aclAdministerApps>
+                <pool name="pro1">
+                    <minResources>1228800 mb, 300 vcores</minResources>
+                    <maxResources>8192000 mb, 2000 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>procar,probdcsc </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+                <pool name="pro2">
+                    <minResources>1228800 mb, 300 vcores</minResources>
+                    <maxResources>2048000 mb, 500 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>prohkmx </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+                <pool name="pro3">
+                    <minResources>1228800 mb, 300 vcores</minResources>
+                    <maxResources>2048000 mb, 500 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>prohkmx </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+                <pool name="pro4">
+                    <minResources>2457600 mb, 600 vcores</minResources>
+                    <maxResources>4096000 mb, 1000 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>prolocarea,proloctask </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+                <pool name="pro5">
+                    <minResources>10240000 mb, 2500 vcores</minResources>
+                    <maxResources>22528000 mb, 5500 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>protravel,dal_pro,dal_tour,dws_pro,dwi_pro </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+                <pool name="pro6">
+                    <minResources>1228800 mb, 300 vcores</minResources>
+                    <maxResources>6144000 mb, 1500 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>dws_pro </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+                <pool name="pro7">
+                    <minResources>2048000 mb, 500 vcores</minResources>
+                    <maxResources>2048000 mb, 500 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>proauto </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+            </pool>
+            <pool name="other" type="parent">
+                <minResources>18432000 mb, 3000 vcores</minResources>
+                <maxResources>18432000 mb, 3000 vcores</maxResources>
+                <weight>1.0</weight>
+                <schedulingPolicy>drf</schedulingPolicy>
+                <aclSubmitApps>yarn </aclSubmitApps>
+                <aclAdministerApps>yarn yarn</aclAdministerApps>
+                <pool name="cp">
+                    <maxResources>4096000 mb, 1000 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>*</aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+                <pool name="cost">
+                    <minResources>1638400 mb, 400 vcores</minResources>
+                    <maxResources>1638400 mb, 400 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>bdcsc_tool </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+                <pool name="oth1">
+                    <minResources>819200 mb, 200 vcores</minResources>
+                    <maxResources>819200 mb, 200 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>dwi_pro </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+                <pool name="oth2">
+                    <minResources>409600 mb, 100 vcores</minResources>
+                    <maxResources>409600 mb, 100 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>hadp </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+                <pool name="oth3">
+                    <minResources>409600 mb, 100 vcores</minResources>
+                    <maxResources>409600 mb, 100 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>bdop </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+                <pool name="oth4">
+                    <minResources>1638400 mb, 400 vcores</minResources>
+                    <maxResources>1638400 mb, 400 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>dal_pcjl </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+                <pool name="yx_biaoqian">
+                    <minResources>12390400 mb, 2000 vcores</minResources>
+                    <maxResources>16486400 mb, 2010 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>yx_biaoqian,kafka </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+                <pool name="oth5">
+                    <minResources>921600 mb, 225 vcores</minResources>
+                    <maxResources>921600 mb, 225 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>dal_cmb </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+                <pool name="oth6">
+                    <minResources>819200 mb, 200 vcores</minResources>
+                    <maxResources>4096000 mb, 1000 vcores</maxResources>
+                    <weight>1.0</weight>
+                    <schedulingPolicy>drf</schedulingPolicy>
+                    <aclSubmitApps>dws_pro,dwi_pro </aclSubmitApps>
+                    <aclAdministerApps>yarn yarn</aclAdministerApps>
+                </pool>
+            </pool>
+        </pool>
+        <pool name="pool" type="parent">
+            <weight>1.0</weight>
+            <schedulingPolicy>drf</schedulingPolicy>
+            <aclSubmitApps>yarn </aclSubmitApps>
+            <aclAdministerApps>yarn yarn</aclAdministerApps>
+        </pool>
+    </pool>
+    <defaultQueueSchedulingPolicy>drf</defaultQueueSchedulingPolicy>
+    <queuePlacementPolicy>
+        <rule name="specified" create="false"/>
+        <rule name="reject"/>
+    </queuePlacementPolicy>
+</allocations>

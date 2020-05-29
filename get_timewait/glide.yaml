@@ -1,0 +1,5 @@
+package: github.com/lfxy/get_timewait
+import:
+- package: github.com/influxdata/influxdb1-client
+  subpackages:
+  - v2

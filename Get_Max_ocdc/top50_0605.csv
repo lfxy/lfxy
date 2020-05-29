@@ -1,0 +1,32 @@
+queue,user,id,name,started_time,finished_time,cpu_average,cpu_seconds,memory_seconds,time_elapsed,finalStatus,peek_cpu,作业名称,作业描述,作业类型,sql,负责人,配合处室
+root.credit_ct,credit_ct,application_1527220447442_719645,select count(1) from(select msisd...msisdn)t(Stage-1),2018/6/5 16:38,2018/6/5 16:52,1028,837002,1721861807,814777,FINISHED,2001,,,,,,应用处
+root.hjtest.hjstandard,hjtest,application_1527220447442_698179,DPI_SER_1_851,2018/6/5 7:53,2018/6/5 8:25,1004,1936783,4059635877,1929017,FINISHED,3503,,,,,,平台处
+root.hjpt,hjpt,application_1527220447442_698164,clean:chongqing_itf_4gdpi_mbl_20180605_02 Warn DPI,2018/6/5 8:06,2018/6/5 9:01,960,3162731,9723085910,3293285,FINISHED,3528,,,,,,平台处
+root.credit_ct,credit_ct,application_1527220447442_711742,select count(1) from bil...day_id='20180601'(Stage-1),2018/6/5 13:04,2018/6/5 13:12,884,465400,959916426,526962,FINISHED,,,,,,,应用处
+root.credit_ct,credit_ct,application_1527220447442_714649,select count(1) from bil...day_id='20180515'(Stage-1),2018/6/5 14:28,2018/6/5 14:37,869,473867,977301746,545765,FINISHED,2001,,,,,,应用处
+root.credit_ct,credit_ct,application_1527220447442_719777,select count(1) from bil...day_id='20180511'(Stage-1),2018/6/5 16:39,2018/6/5 16:56,848,871756,1791599900,1028936,FINISHED,2001,,,,,,应用处
+root.hjtest.hjstandard,hjtest,application_1527220447442_696166,DPI_SER_2_844,2018/6/5 7:15,2018/6/5 7:47,791,1537159,3257592906,1943324,FINISHED,1668,,,,,,平台处
+root.hjtest.hjtest,hjtest,application_1527220447442_693772,'MID_FIX_DPI_USER_APP_SUM_M_201805',2018/6/5 6:18,2018/6/5 7:25,727,2917384,5980328510,4011313,FINISHED,2257,,,,,,平台处
+root.credit_ct,credit_ct,application_1527220447442_716130,select count(1) from(select msisd...msisdn)t(Stage-1),2018/6/5 14:59,2018/6/5 15:12,718,541543,1116119262,754946,FINISHED,1702,,,,,,应用处
+root.credit_ct,credit_ct,application_1527220447442_717600,select count(1) from bil...day_id='20180511'(Stage-1),2018/6/5 15:41,2018/6/5 15:54,718,537581,1107056617,748928,FINISHED,1980,,,,,,应用处
+root.hjpt,hjpt,application_1527220447442_714331,select * from itf_eda_real_name_rule_m ...10(Stage-1),2018/6/5 14:09,2018/6/5 14:14,684,191610,394482148,280008,FINISHED,1410,,,,,,平台处
+root.hjtest.hjtest,hjtest,application_1527220447442_698576,'MID_FIX_DPI_USER_SITE_SUM_M_201805',2018/6/5 8:03,2018/6/5 8:58,664,2175026,4457829112,3272982,FINISHED,2081,,,,,,平台处
+root.hjtest.hjstandard,hjtest,application_1527220447442_699850,DPI_SER_2_837,2018/6/5 8:30,2018/6/5 8:52,645,839763,1897914804,1300900,FINISHED,1022,,,,,,平台处
+root.sjyy_dm,daua,application_1527220447442_717759,"select mdn,month_id,be_prov, c...100(Stage-1)",2018/6/5 15:32,2018/6/5 16:02,644,1148685,2354775957,1783069,FINISHED,1104,,,,,,应用处
+root.credit_ct,credit_ct,application_1527220447442_717601,select count(1) from(select msisd...msisdn)t(Stage-1),2018/6/5 15:44,2018/6/5 16:00,634,598708,1232880919,943077,FINISHED,1251,,,,,,应用处
+root.hjdq,hjdq,application_1527220447442_693790,CHECK_TASK_bil01_BIL_DB.ITG_OTH_DDR_H_task_fe92aba4-6844-11e8-ab22-18c58a10ad18_33_20180603_0,2018/6/5 6:18,2018/6/5 6:54,615,1301410,2668650368,2116703,FINISHED,2019,,,,,,质量处
+root.hjtest.hjstandard,hjtest,application_1527220447442_696138,DPI_SER_2_834,2018/6/5 7:15,2018/6/5 7:37,600,790677,1704796790,1316969,FINISHED,,,,,,,平台处
+root.hjtest.hjstandard,hjtest,application_1527220447442_701342,DPI_SER_1_845,2018/6/5 8:58,2018/6/5 9:13,554,492201,1207880825,887406,FINISHED,1327,,,,,,平台处
+root.hjtest.hjstandard,hjtest,application_1527220447442_695713,DPI_SER_1_837,2018/6/5 7:01,2018/6/5 7:21,525,636300,1364418976,1211638,FINISHED,1799,,,,,,平台处
+root.sjyy_dm,daua,application_1527220447442_714085,select keyword from hjtest_db.MID_MB...100(Stage-1),2018/6/5 13:52,2018/6/5 14:18,501,773346,1585958278,1543677,FINISHED,,,,,,,应用处
+root.hjdq,hjdq,application_1527220447442_694075,CHECK_TASK_bil01_BIL_DB.ITG_OTH_DDR_H_task_51abadb8-6845-11e8-9389-18c58a10ad18_35_20180603_0,2018/6/5 6:24,2018/6/5 7:05,488,1182084,2423746145,2420610,FINISHED,1019,,,,,,质量处
+root.hjtest.hjstandard,hjtest,application_1527220447442_713527,'MID_MBL_DPI_USER_PRE_SUM_H_20180604_00_844',2018/6/5 13:41,2018/6/5 14:00,487,564875,1466285428,1159735,FINISHED,,,,,,,平台处
+root.dpiq,dpiq,application_1527220447442_715114,TS-IndexLoader-20180605005@dpiq_db.dpi_aggregation_351,2018/6/5 14:25,2018/6/5 14:30,486,137636,425470092,283838,FINISHED,,,,,,,质量处
+root.sjyy_dm,daua,application_1527220447442_717768,"select mdn, month_id, be_prov, c...100(Stage-1)",2018/6/5 15:32,2018/6/5 16:02,478,858423,1759746541,1793088,FINISHED,,,,,,,应用处
+root.hjtest.hjstandard,hjtest,application_1527220447442_717452,'MID_MBL_DPI_USER_PRE_SUM_H_20180604_00_850',2018/6/5 15:23,2018/6/5 15:34,476,324282,844202813,681092,FINISHED,,,,,,,平台处
+root.hjpt,hjpt,application_1527220447442_699154,select * from itg_oidd_position_h whe...hour(Stage-1),2018/6/5 8:14,2018/6/5 8:23,462,240144,493971380,519916,FINISHED,,,,,,,平台处
+root.hjtest.hjstandard,hjtest,application_1527220447442_711730,'MID_MBL_DPI_USER_PRE_SUM_H_20180604_20_851',2018/6/5 12:50,2018/6/5 13:03,450,360682,869436760,800288,FINISHED,,,,,,,平台处
+root.hjpt,hjpt,application_1527220447442_692644,oidd_dq_report_d,2018/6/5 5:49,2018/6/5 6:43,443,1420128,2914855007,3199751,FINISHED,4254,,,,,,平台处
+root.hjtest.hjstandard,hjtest,application_1527220447442_699836,DPI_SER_1_822,2018/6/5 8:30,2018/6/5 8:51,416,518891,1211861174,1246995,FINISHED,1026,,,,,,平台处
+root.hjpt,hjpt,application_1527220447442_700679,fix_dpi_sichuan_20180605_07,2018/6/5 8:51,2018/6/5 9:17,409,650859,1333875619,1589941,FINISHED,,,,,,,平台处
+root.hjtest.hjstandard,hjtest,application_1527220447442_693119,DPI_SER_2_861,2018/6/5 6:05,2018/6/5 6:23,397,447590,1034320693,1125179,FINISHED,,,,,,,平台处

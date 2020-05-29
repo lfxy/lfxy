@@ -1,0 +1,5 @@
+queue,user,id,name,started_time,finished_time,peek,cpu_seconds,memory_seconds,time_elapsed
+root.credit_ct,credit_ct,application_1529601806040_168361,#NAME?,2018/6/25 17:21,1970/1/1 8:00,3498,10598716,21812585082,23200314
+root.credit_ct,credit_ct,application_1529601806040_157238,"select prov_id,count(1) from tf_cr...prov_id(Stage-1)",2018/6/25 13:19,1970/1/1 8:00,2786,648239,1334066224,315020
+root.hjpt,hjpt,application_1529601806040_162455,"select a.prod_inst_id,a.day_id from c...null(Stage-1)",2018/6/25 16:37,1970/1/1 8:00,2691,546865,1126973742,426939
+root.credit_ct,credit_ct,application_1529601806040_161191,"select prov_id,count(1) from tf_cr...prov_id(Stage-1)",2018/6/25 14:46,1970/1/1 8:00,2622,3606712,7445417754,1986990

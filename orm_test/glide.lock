@@ -1,0 +1,10 @@
+hash: 28af8cfd93fd5f1878631689b1a0f7f56ccbacb9779f33a00ad2cf1a1116e5d4
+updated: 2017-09-11T18:45:54.739035756+08:00
+imports:
+- name: github.com/astaxie/beego
+  version: 3162da131da68f38e85765781c9d1cc419963e67
+  subpackages:
+  - orm
+- name: github.com/go-sql-driver/mysql
+  version: 26471af196a17ee75a22e6481b5a5897fb16b081
+testImports: []

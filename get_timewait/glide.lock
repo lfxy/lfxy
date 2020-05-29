@@ -1,0 +1,10 @@
+hash: 44e21b169d0a8db88cfa794a933f91279b4f9284d925a51657087e2fdc177aee
+updated: 2020-05-27T22:27:09.311562+08:00
+imports:
+- name: github.com/influxdata/influxdb1-client
+  version: 02f0bf5dbca364fe200ee3f5709c8cc0c9bda0d0
+  subpackages:
+  - models
+  - pkg/escape
+  - v2
+testImports: []

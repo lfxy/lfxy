@@ -1,0 +1,5 @@
+package: github.com/lfxy/getloadaverage_influxdb
+import:
+- package: github.com/influxdata/influxdb1-client
+  subpackages:
+  - v2

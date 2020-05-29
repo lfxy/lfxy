@@ -1,0 +1,3 @@
+package: github.com/lfxy/cron_test
+import:
+- package: github.com/robfig/cron

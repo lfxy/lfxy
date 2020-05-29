@@ -1,0 +1,6 @@
+package: github.com/lfxy/orm_test
+import:
+- package: github.com/astaxie/beego
+  subpackages:
+  - orm
+- package: github.com/go-sql-driver/mysql

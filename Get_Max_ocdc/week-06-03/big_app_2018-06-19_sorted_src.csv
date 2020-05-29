@@ -1,0 +1,3 @@
+queue,user,id,name,started_time,peek,cpu_seconds,memory_seconds,time_elapsed,,
+root.hjtest.hjstandard,hjtest,application_1528978566586_286012,"select prov_id,count(1) from bil_d...prov_id(Stage-1)",2018/6/19 14:21,3312,220103,454127318,314483,,1
+root.hjpt,hjpt,application_1528978566586_299169,special_audit_29_20180613_20180619200815,2018/6/19 20:20,2217,137350,283667075,201218,,2
